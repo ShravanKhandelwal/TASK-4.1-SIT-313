@@ -1,0 +1,37 @@
+nav{
+    padding: 10px;
+    background-color: rgb(247, 247, 247);
+}
+
+
+ul{
+    display: flex;
+    list-style: none;
+    min-width: 100%;
+    justify-content: space-around;
+}
+
+@media (min-width: 168px) and (max-width:700px) {
+
+    ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+}
+
+#Sign_up{
+    font-size: 40px;
+    color: black;
+}
+
+
+#Sub_button{
+    margin-top: 10px;
+}
+
+#bottom_input{
+    margin-top: 10px;
+    width: 420px;
+    height: 30px;
+}

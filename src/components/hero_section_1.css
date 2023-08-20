@@ -1,0 +1,86 @@
+.main {
+  /* background-color: pink; */
+  display: flex;
+  flex-direction: column;
+}
+
+.card_outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#Feature_Articles {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+button {
+  background-color: rgb(197, 190, 190);
+  width: 160px;
+  height: 40px;
+  border-radius: 40px;
+  margin: 0px auto;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: gray;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  padding: 10px;
+  min-width: 1500px;
+}
+
+.card-content {
+  margin-top: 30px;
+  max-width: 250px;
+  /* margin: 0px 30px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.line {
+  /* background-color: rgb(186, 39, 39); */
+  height: 0.2px;
+  width: 250px;
+  border-top: dashed;
+  margin-top: 10px;
+}
+
+.star_img {
+  height: 20px;
+  width: 40px;
+}
+
+.article_images {
+  height: 200px;
+  width: 300px;
+}
+
+.bottom-section {
+  margin-top: 4px;
+  display: flex;
+  justify-content: space-around;
+  min-width: 250px;
+}
+
+#bottom_btn {
+  margin-bottom: 30px;
+}
